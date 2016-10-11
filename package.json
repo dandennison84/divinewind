@@ -1,0 +1,31 @@
+{
+  "name": "divinewind",
+  "version": "1.0.0",
+  "description": "World War 2 Pacific Theatre Strategy Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | faucet",
+    "cover": "istanbul cover test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandennison84/divinewind.git"
+  },
+  "keywords": [
+    "WW2",
+    "strategy",
+    "game"
+  ],
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dandennison84/divinewind/issues"
+  },
+  "homepage": "https://github.com/dandennison84/divinewind#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "0.4.5",
+    "tape": "4.6.2"
+  }
+}
